@@ -147,6 +147,8 @@ Error message and password prompt
 
 <li>$:/config/Navigation/openLinkFromOutsideRiver</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/core</li>
 
 <li>$:/Import</li>
@@ -207,9 +209,13 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/tiddlymap/notify</li>
+
 <li>$:/temp/tmap/currentTiddler</li>
 
 <li>$:/temp/tmap/nodes/家乡特色小吃</li>
+
+<li>$:/temp/tmap/state/popup/quickConnect</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
@@ -220,8 +226,6 @@ Error message and password prompt
 <li>$:/view</li>
 
 <li>Draft of '$:/ControlPanel'</li>
-
-<li>Draft of '用表格将文本、图像、视频和音频格式分类'</li>
 
 <li>Font Awesome for TiddlyWiki</li>
 
@@ -253,7 +257,7 @@ Error message and password prompt
 
 <li>大方豆棒</li>
 
-<li>大方闯丫黄粑</li>
+<li>大方阁丫黄粑</li>
 
 <li>姑开天然矿泉水</li>
 
@@ -313,7 +317,9 @@ Error message and password prompt
 
 <li>血豆腐</li>
 
-<li>豆豉粑</li>
+<li>西西弗书店分类</li>
+
+<li>豆豉</li>
 
 <li>赫章县</li>
 
@@ -445,6 +451,9 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
 </div>
 <div title="$:/config/Navigation/openLinkFromOutsideRiver">
 <pre>top</pre>
+</div>
+<div created="20191211091715642" modified="20191211091715642" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
@@ -9644,8 +9653,7 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
     &quot;tiddlers&quot;: {
         &quot;Untitled&quot;: {
             &quot;title&quot;: &quot;Untitled&quot;,
-            &quot;text&quot;: &quot;&lt;html&gt;\r\n&lt;body&gt;\r\n&lt;!--StartFragment--&gt;&lt;span style=\&quot;color: rgb(24, 41, 85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 32.9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\&quot;&gt;大方豆干&lt;/span&gt;&lt;!--EndFragment--&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;&quot;,
-            &quot;type&quot;: &quot;text/html&quot;
+            &quot;text&quot;: &quot;\r\n&quot;
         }
     }
 }</pre>
@@ -10359,8 +10367,7 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
 <pre></pre>
 </div>
 <div filter="-[prefix[_]] " title="$:/plugins/felixhayashi/tiddlymap/graph/views/Live View/filter/edges">
-<pre>
-</pre>
+<pre></pre>
 </div>
 <div id="880ca2b6-34b5-4d77-b1a4-f8eb1791c0de" isview="true" title="$:/plugins/felixhayashi/tiddlymap/graph/views/家乡特色小吃">
 <pre></pre>
@@ -10368,7 +10375,7 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
 <div filter="-[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/家乡特色小吃/filter/edges">
 <pre></pre>
 </div>
-<div filter=" [field:tmap.id[56271e2e-f0b5-447a-972f-35b095dadbe9]] [field:tmap.id[e84ce153-39d9-4809-95e9-3c5981e379fb]] [field:tmap.id[9a08b113-ea30-4b49-ace3-20754236d358]] [field:tmap.id[603e677d-7c4d-4f79-be24-d3682c72d375]] [field:tmap.id[b8b8e2aa-e308-488c-922a-3a6be3783a53]] [field:tmap.id[200afce2-69f1-4007-80c5-34ce8e4f901d]] [field:tmap.id[39d3245f-43a2-4543-98b2-ad1cd4e84d55]] [field:tmap.id[0c3c840b-ba20-4f31-98eb-8531b8be4b73]] [field:tmap.id[dc18a672-0b54-421a-b53a-79864c6ec559]] [field:tmap.id[9c6d9e9c-38aa-4a05-9e05-22f798045ca2]] [field:tmap.id[d1b63da3-288a-4e1b-8e74-7fe2618122e1]] [field:tmap.id[91df81a9-5957-40fb-8dfb-e0b9a30d3761]] [field:tmap.id[fbf07aca-c66f-43d4-91e0-edbb95c4a2a6]] [field:tmap.id[317a9bc2-9235-41c0-927a-8308c2713047]] [field:tmap.id[ec6b1e07-d648-4b67-a2a0-09576804b229]] [field:tmap.id[c87d6590-2076-4489-843e-4aa3f8bdbe1e]] [field:tmap.id[ac5193eb-167a-4a9a-8ebe-0691c887318b]] [field:tmap.id[348260b0-015c-44bb-bf5d-8f644115786e]] [field:tmap.id[9ddf6ae8-506f-4a96-8915-28b850b9a199]] [field:tmap.id[4ea3312d-f7ec-4892-bc3e-c8bfa4233688]] [field:tmap.id[8c56b186-2d2e-41d5-acc7-449ee02205ed]] [field:tmap.id[2f40d39e-b024-42e5-a30a-85c7c3e4c3ea]] [field:tmap.id[d629e7ef-7216-4cf8-9436-5945738bc08d]] [field:tmap.id[1ba8af79-e70e-4b74-bcad-2494bfbc1bdb]] [field:tmap.id[0d669445-6a5c-499c-9a76-190d25849f67]] [field:tmap.id[e8dcb2d2-4b3f-479f-9b34-b4aee6231ebc]] [field:tmap.id[bfc5cce9-9b8f-4bda-a951-2bf804272668]] [field:tmap.id[ed138f90-037b-43f7-b22c-abacba5732db]] [field:tmap.id[12359edd-2f25-4576-9b17-e8290f7d2020]] [field:tmap.id[c669e695-5a8c-46ee-ae5e-d4c1786bb656]] [field:tmap.id[ccec4894-c055-4d45-93c2-e8bf5bde224d]] [field:tmap.id[df4b6a59-1869-4f5d-b372-21c957e88d8b]] [field:tmap.id[a8b13a8b-9347-4679-90e2-d02ea9c635ff]] [field:tmap.id[d69a227f-fa18-4f3e-84d4-35be5ec8f781]] [field:tmap.id[8e2b3e4b-db00-4a3d-8af1-42bbf3e9b636]] [field:tmap.id[441d5371-8066-4245-a9fd-c07f81df751d]] [field:tmap.id[a6d1f7f9-f603-4bb4-9758-5f48078af46a]] [field:tmap.id[b98adf1d-bf49-4d17-8711-c3ec51c54135]] [field:tmap.id[4c9596f8-17d4-428d-abb8-ebe565e2ee1e]] [field:tmap.id[a4fa4370-55db-4953-9ff3-a6b574ff4b69]] [field:tmap.id[6043f2d7-af1d-4158-84f8-9967f4b56bf6]] [field:tmap.id[7c3ae376-85d6-472f-86bd-0876c50b57da]] [field:tmap.id[741e09b7-96d2-4cdf-8e88-503c6f24d59d]] [field:tmap.id[ffc6fe06-4cfe-443e-a1ea-a511452e8324]] [field:tmap.id[a26e4ec6-ef75-4f6d-9702-889e6cbcae6c]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/家乡特色小吃/filter/nodes">
+<div filter=" [field:tmap.id[56271e2e-f0b5-447a-972f-35b095dadbe9]] [field:tmap.id[e84ce153-39d9-4809-95e9-3c5981e379fb]] [field:tmap.id[9a08b113-ea30-4b49-ace3-20754236d358]] [field:tmap.id[603e677d-7c4d-4f79-be24-d3682c72d375]] [field:tmap.id[b8b8e2aa-e308-488c-922a-3a6be3783a53]] [field:tmap.id[200afce2-69f1-4007-80c5-34ce8e4f901d]] [field:tmap.id[39d3245f-43a2-4543-98b2-ad1cd4e84d55]] [field:tmap.id[0c3c840b-ba20-4f31-98eb-8531b8be4b73]]  [field:tmap.id[9c6d9e9c-38aa-4a05-9e05-22f798045ca2]] [field:tmap.id[d1b63da3-288a-4e1b-8e74-7fe2618122e1]] [field:tmap.id[91df81a9-5957-40fb-8dfb-e0b9a30d3761]] [field:tmap.id[fbf07aca-c66f-43d4-91e0-edbb95c4a2a6]] [field:tmap.id[317a9bc2-9235-41c0-927a-8308c2713047]] [field:tmap.id[ec6b1e07-d648-4b67-a2a0-09576804b229]] [field:tmap.id[c87d6590-2076-4489-843e-4aa3f8bdbe1e]] [field:tmap.id[ac5193eb-167a-4a9a-8ebe-0691c887318b]]  [field:tmap.id[9ddf6ae8-506f-4a96-8915-28b850b9a199]]      [field:tmap.id[0d669445-6a5c-499c-9a76-190d25849f67]]  [field:tmap.id[bfc5cce9-9b8f-4bda-a951-2bf804272668]] [field:tmap.id[ed138f90-037b-43f7-b22c-abacba5732db]] [field:tmap.id[12359edd-2f25-4576-9b17-e8290f7d2020]] [field:tmap.id[c669e695-5a8c-46ee-ae5e-d4c1786bb656]]    [field:tmap.id[d69a227f-fa18-4f3e-84d4-35be5ec8f781]] [field:tmap.id[8e2b3e4b-db00-4a3d-8af1-42bbf3e9b636]] [field:tmap.id[441d5371-8066-4245-a9fd-c07f81df751d]] [field:tmap.id[a6d1f7f9-f603-4bb4-9758-5f48078af46a]] [field:tmap.id[b98adf1d-bf49-4d17-8711-c3ec51c54135]] [field:tmap.id[4c9596f8-17d4-428d-abb8-ebe565e2ee1e]] [field:tmap.id[a4fa4370-55db-4953-9ff3-a6b574ff4b69]] [field:tmap.id[6043f2d7-af1d-4158-84f8-9967f4b56bf6]]   [field:tmap.id[ffc6fe06-4cfe-443e-a1ea-a511452e8324]] [field:tmap.id[a26e4ec6-ef75-4f6d-9702-889e6cbcae6c]]" title="$:/plugins/felixhayashi/tiddlymap/graph/views/家乡特色小吃/filter/nodes">
 <pre></pre>
 </div>
 <div title="$:/plugins/felixhayashi/tiddlymap/graph/views/家乡特色小吃/map">
@@ -10405,20 +10412,16 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
   &quot;x&quot;: -181,
   &quot;y&quot;: 17
  },
- &quot;dc18a672-0b54-421a-b53a-79864c6ec559&quot;: {
-  &quot;x&quot;: 255,
-  &quot;y&quot;: 263
- },
  &quot;9c6d9e9c-38aa-4a05-9e05-22f798045ca2&quot;: {
   &quot;x&quot;: 161,
   &quot;y&quot;: 272
  },
  &quot;d1b63da3-288a-4e1b-8e74-7fe2618122e1&quot;: {
-  &quot;x&quot;: 456,
-  &quot;y&quot;: -96
+  &quot;x&quot;: 435,
+  &quot;y&quot;: -87
  },
  &quot;91df81a9-5957-40fb-8dfb-e0b9a30d3761&quot;: {
-  &quot;x&quot;: 465,
+  &quot;x&quot;: 451,
   &quot;y&quot;: -43
  },
  &quot;fbf07aca-c66f-43d4-91e0-edbb95c4a2a6&quot;: {
@@ -10426,132 +10429,84 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
   &quot;y&quot;: -134
  },
  &quot;317a9bc2-9235-41c0-927a-8308c2713047&quot;: {
-  &quot;x&quot;: 465,
-  &quot;y&quot;: 7
+  &quot;x&quot;: 446,
+  &quot;y&quot;: 8
  },
  &quot;ec6b1e07-d648-4b67-a2a0-09576804b229&quot;: {
-  &quot;x&quot;: 467,
-  &quot;y&quot;: 58
+  &quot;x&quot;: 433,
+  &quot;y&quot;: 55
  },
  &quot;c87d6590-2076-4489-843e-4aa3f8bdbe1e&quot;: {
-  &quot;x&quot;: -496,
-  &quot;y&quot;: -228
+  &quot;x&quot;: -538,
+  &quot;y&quot;: -200
  },
  &quot;ac5193eb-167a-4a9a-8ebe-0691c887318b&quot;: {
-  &quot;x&quot;: -516,
-  &quot;y&quot;: -182
- },
- &quot;348260b0-015c-44bb-bf5d-8f644115786e&quot;: {
-  &quot;x&quot;: -542,
-  &quot;y&quot;: -131
+  &quot;x&quot;: -551,
+  &quot;y&quot;: -146
  },
  &quot;9ddf6ae8-506f-4a96-8915-28b850b9a199&quot;: {
-  &quot;x&quot;: -549,
-  &quot;y&quot;: -79
- },
- &quot;4ea3312d-f7ec-4892-bc3e-c8bfa4233688&quot;: {
-  &quot;x&quot;: -565,
-  &quot;y&quot;: -40
- },
- &quot;8c56b186-2d2e-41d5-acc7-449ee02205ed&quot;: {
-  &quot;x&quot;: -473,
-  &quot;y&quot;: -279
- },
- &quot;2f40d39e-b024-42e5-a30a-85c7c3e4c3ea&quot;: {
-  &quot;x&quot;: -588,
-  &quot;y&quot;: -1
- },
- &quot;d629e7ef-7216-4cf8-9436-5945738bc08d&quot;: {
-  &quot;x&quot;: -594,
-  &quot;y&quot;: 47
- },
- &quot;1ba8af79-e70e-4b74-bcad-2494bfbc1bdb&quot;: {
-  &quot;x&quot;: -603,
-  &quot;y&quot;: 90
+  &quot;x&quot;: -499,
+  &quot;y&quot;: -91
  },
  &quot;0d669445-6a5c-499c-9a76-190d25849f67&quot;: {
-  &quot;x&quot;: -605,
-  &quot;y&quot;: 121
- },
- &quot;e8dcb2d2-4b3f-479f-9b34-b4aee6231ebc&quot;: {
-  &quot;x&quot;: -602,
-  &quot;y&quot;: 156
+  &quot;x&quot;: -598,
+  &quot;y&quot;: 73
  },
  &quot;bfc5cce9-9b8f-4bda-a951-2bf804272668&quot;: {
-  &quot;x&quot;: -594,
-  &quot;y&quot;: 232
+  &quot;x&quot;: -463,
+  &quot;y&quot;: 128
  },
  &quot;ed138f90-037b-43f7-b22c-abacba5732db&quot;: {
-  &quot;x&quot;: -611,
-  &quot;y&quot;: 194
+  &quot;x&quot;: -545,
+  &quot;y&quot;: 106
  },
  &quot;12359edd-2f25-4576-9b17-e8290f7d2020&quot;: {
-  &quot;x&quot;: -369,
-  &quot;y&quot;: 251
+  &quot;x&quot;: -365,
+  &quot;y&quot;: 177
  },
  &quot;c669e695-5a8c-46ee-ae5e-d4c1786bb656&quot;: {
-  &quot;x&quot;: -167,
-  &quot;y&quot;: 274
- },
- &quot;ccec4894-c055-4d45-93c2-e8bf5bde224d&quot;: {
-  &quot;x&quot;: -291,
-  &quot;y&quot;: 257
- },
- &quot;df4b6a59-1869-4f5d-b372-21c957e88d8b&quot;: {
-  &quot;x&quot;: -225,
-  &quot;y&quot;: 268
- },
- &quot;a8b13a8b-9347-4679-90e2-d02ea9c635ff&quot;: {
-  &quot;x&quot;: -478,
-  &quot;y&quot;: 241
+  &quot;x&quot;: -268,
+  &quot;y&quot;: 217
  },
  &quot;d69a227f-fa18-4f3e-84d4-35be5ec8f781&quot;: {
-  &quot;x&quot;: -15,
-  &quot;y&quot;: 237
+  &quot;x&quot;: -39,
+  &quot;y&quot;: 227
  },
  &quot;8e2b3e4b-db00-4a3d-8af1-42bbf3e9b636&quot;: {
   &quot;x&quot;: 40,
   &quot;y&quot;: 211
  },
  &quot;441d5371-8066-4245-a9fd-c07f81df751d&quot;: {
-  &quot;x&quot;: -78,
-  &quot;y&quot;: 262
- },
- &quot;a6d1f7f9-f603-4bb4-9758-5f48078af46a&quot;: {
-  &quot;x&quot;: 317,
+  &quot;x&quot;: -135,
   &quot;y&quot;: 227
  },
+ &quot;a6d1f7f9-f603-4bb4-9758-5f48078af46a&quot;: {
+  &quot;x&quot;: 224,
+  &quot;y&quot;: 232
+ },
  &quot;b98adf1d-bf49-4d17-8711-c3ec51c54135&quot;: {
-  &quot;x&quot;: 343,
-  &quot;y&quot;: 175
+  &quot;x&quot;: 285,
+  &quot;y&quot;: 193
  },
  &quot;4c9596f8-17d4-428d-abb8-ebe565e2ee1e&quot;: {
-  &quot;x&quot;: 344,
-  &quot;y&quot;: 128
+  &quot;x&quot;: 308,
+  &quot;y&quot;: 141
  },
  &quot;a4fa4370-55db-4953-9ff3-a6b574ff4b69&quot;: {
-  &quot;x&quot;: 344,
-  &quot;y&quot;: 77
+  &quot;x&quot;: 317,
+  &quot;y&quot;: 99
  },
  &quot;6043f2d7-af1d-4158-84f8-9967f4b56bf6&quot;: {
-  &quot;x&quot;: 343,
-  &quot;y&quot;: 31
- },
- &quot;7c3ae376-85d6-472f-86bd-0876c50b57da&quot;: {
-  &quot;x&quot;: 476,
-  &quot;y&quot;: -190
- },
- &quot;741e09b7-96d2-4cdf-8e88-503c6f24d59d&quot;: {
-  &quot;x&quot;: 473,
-  &quot;y&quot;: -238
+  &quot;x&quot;: 331,
+  &quot;y&quot;: 53
  },
  &quot;ffc6fe06-4cfe-443e-a1ea-a511452e8324&quot;: {
-  &quot;x&quot;: 475,
-  &quot;y&quot;: -284
+  &quot;x&quot;: 414,
+  &quot;y&quot;: -200
  },
  &quot;a26e4ec6-ef75-4f6d-9702-889e6cbcae6c&quot;: {
-  &quot;x&quot;: 471,
-  &quot;y&quot;: -323
+  &quot;x&quot;: 404,
+  &quot;y&quot;: -286
  }
 }</pre>
 </div>
@@ -10714,17 +10669,17 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
 <div created="20191112054935572" modified="20191113084609352" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
-<div created="20191113093838945" modified="20191209132124736" title="$:/state/tab/sidebar--595412856">
+<div created="20191113093838945" modified="20191211094459176" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div created="20191209125353700" list="搜索引擎 目录 GettingStarted" modified="20191209132134081" title="$:/StoryList">
+<div created="20191211083600199" list="目录 GettingStarted" modified="20191211100207109" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20191112054935572" modified="20191113084609352" title="$:/temp/advancedsearch">
 <pre>[!is[system]sort[title]]</pre>
 </div>
-<div modified="20191209132135451" title="$:/temp/focussedTiddler">
-<pre>搜索引擎</pre>
+<div modified="20191211100239440" title="$:/temp/focussedTiddler">
+<pre>目录</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -10784,10 +10739,20 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
     }
 }</pre>
 </div>
-<div title="$:/temp/tmap/currentTiddler">
-<pre>搜索引擎</pre>
+<div title="$:/temp/tiddlymap/notify">
+<pre>
+        Removed 1
+        of 1
+        from filter
+      </pre>
 </div>
-<div list="织金宫保鸡丁 血豆腐 织金荞凉粉 织金发粑 大方豆棒 大方闯丫黄粑 海马宫茶 八堡苗家水花酒 豆豉粑 龙华脆皮豆腐 黔西素辣椒 擂茶糍粑 赫章红花山茶油 核桃糖 韭黄肉丝 赫章殷桃 赫章核桃 纳雍竹荪 纳雍火把鱼 姑开天然矿泉水 彝家刺梨酒 燕麦炒面 鸡场豆腐 新猫场砂锅 寿森园黄粑 富硒SOD大枣 沙土羊肉粉 雄泰大头菜 金沙贡茶 金沙回沙酒 草海细鱼 威宁荞饭 威宁小粑粑 威宁荞酥 威宁火腿 大方豆干 大方臭豆腐 赫章县 黔西县 大方县 威宁彝族回族苗族自治县 金沙县 织金县 纳雍县 毕节市" title="$:/temp/tmap/nodes/家乡特色小吃">
+<div title="$:/temp/tmap/currentTiddler">
+<pre>目录</pre>
+</div>
+<div list="织金宫保鸡丁 血豆腐 大方豆棒 大方阁丫黄粑 海马宫茶 八堡苗家水花酒 豆豉 龙华脆皮豆腐 黔西素辣椒 擂茶糍粑 赫章殷桃 赫章核桃 纳雍竹荪 纳雍火把鱼 彝家刺梨酒 沙土羊肉粉 金沙贡茶 金沙回沙酒 草海细鱼 威宁荞饭 威宁小粑粑 威宁荞酥 威宁火腿 大方豆干 赫章县 黔西县 大方县 威宁彝族回族苗族自治县 金沙县 织金县 纳雍县 毕节市" modified="20191211092648114" title="$:/temp/tmap/nodes/家乡特色小吃">
+<pre></pre>
+</div>
+<div created="20191211085319189" modified="20191211085319189" title="$:/temp/tmap/state/popup/quickConnect">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.21">
@@ -10911,13 +10876,6 @@ IT COSTS CONSIDERABLY LESS PER LINEAR LINEAT FOOT OF RECORDS TO STROE INACTIVE R
 &lt;/div&gt;
 </pre>
 </div>
-<div created="20191119094312656" draft.of="用表格将文本、图像、视频和音频格式分类" draft.title="用表格将文本、图像、视频和音频格式分类" modified="20191123110305811" tags="音频 视频 图像 文本 格式 分类 表格 作业" title="Draft of '用表格将文本、图像、视频和音频格式分类'">
-<pre>|类型|格式|
-|^视频|^wmv、asf 、mov、m4v、avi、dat、flv、vob、rm、amv、mpeg1-4|
-|音频|AIFF、AU 、MIDI、MP3、WAV、RA、RM、MPEG、SWF、QT、WMV|
-|,文本|,TXT、DOC 、PPT、XLS、MP4、DOCX、PPTX、PRD、PMD、TMDX、PRDX|
-|图像|bmp、jpg、png、tif,gif、pcx、tga、exif、fpx、svg、psd、cdr、pcd、dxf、ufo、eps、ai、raw、WMF、webp|</pre>
-</div>
 <div created="20151013111537864" modified="20151030140611059" title="Font Awesome for TiddlyWiki" tmap.id="e5cac075-352b-4cb6-a552-836b2067fdc1" type="text/vnd.tiddlywiki">
 <pre>You can add [[Font Awesome|https://fortawesome.github.io/Font-Awesome/]] to your wiki by using one of the sources below.
 
@@ -10998,8 +10956,20 @@ Mendeley的一些局限：（1）不能自己生成各种Style；（2）内嵌pd
 方法：
 [img[http://m.qpic.cn/psb?/V14NFdlT4A9LxU/Ku676aVAODGU4u2QrSlaY8DMWxEPst8J1TE6rBDvTJM!/b/dL4AAAAAAAAA&amp;bo=LQNvAS0DbwEDGTw!&amp;rf=viewer_4]]</pre>
 </div>
-<div created="20191125135806945" modified="20191125135806945" title="八堡苗家水花酒" tmap.id="b98adf1d-bf49-4d17-8711-c3ec51c54135">
-<pre></pre>
+<div created="20191125135806945" modified="20191211092211442" tags="家乡小吃 作业" title="八堡苗家水花酒" tmap.id="b98adf1d-bf49-4d17-8711-c3ec51c54135">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33100.gif]]
+
+       八堡苗家水花酒是贵州省毕节市大方县八堡乡的特产。八堡苗家水花酒是苗家人世世代代留传下来适合一年四季饮用的民族工艺酒饮品、也是苗家人专门接待客人所用的酒。苗家人每年农历九月或十冬腊月用糯米酿制而成。酒色成金黄色半透明体，泛着嫩绿色，酽得粘手。
+
+　　贵州省大方县八堡乡位于黔西北，青龙、油沙、沙龙三条山脉从南北并行，八堡地势高峻，山脉气势磅礴，海马箐、火烧箐高耸云端，呈东西窄而南北长之势，气候四季分明，有凉爽而多雨的夏天，也有寒冷而冰天雪地的冬天。八堡乡位于大方县城北约65公里处，属于中山低谷和陵洼地貌，最高海拔1845米，最低海拔1425米，相对高差420米，积温3600度，年均降雨量960毫米，无霜期360天左右。这里终年气候温暧湿润，喀斯特地貌造就了清洌甘甜的山泉。当地人选择用当地的优质糯米，辅以得天独厚的山泉，自然就酿造出香醇可口的水花酒。
+
+　　千年的历史，千年的文化，千年苗族人民的爱与恨，都无不与“水花酒”息息相关。如今，在苗族人民的生活中，“水花酒”已是一种不可缺少的东西。从家中的每日三餐到办喜事、丧事，乃至大型的民族节日活动，喝“水花酒”是人们要做的第一件事。客人来了以美酒相待，是一种神圣而不可改变的待客礼节。
+
+　　八堡苗家水花酒独具风味，属于一个中性的酒类，它既不属于白酒类，也不属于保健酒类，恰逢其中，两者兼具。与其他酒相比有以下特点：绵甜爽口，无刺激口腔、咽喉之感、饮后嘴唇滋润，醉不伤体;低度健康，不含1，高值营养；其市场优势可佳，属于市场的空白，发展空间大，市场潜力亦无穷。市场上白酒、葡萄酒等产品多不胜数，其品牌竞争力也相对激烈。而苗家水花酒仅此一家，其风味独具。
+
+　　苗家水花酒是苗家咂酒之一。品评过很多中外名酒的专家们认为，水花酒与其他酒相比较，无刺激口腔、咽喉的感觉，相反饮后绵甜酸辣爽口，风味独具，加之度数适中，是现代人们追求的最佳口感。因其不含1，饮用后嘴唇滋润，醉不伤体。
+
+　　其次是它的营养性，八堡苗家水花酒因主要原料系本地优质糯米，经过自然发酵酿制而成，所以其营养成份远远超过蒸馏酒。在加之得天独厚的地理环境及优质的水资源，使苗家水花酒与众不同。</pre>
 </div>
 <div created="20191123085915528" modified="20191123123009411" tags="描述 内容特征 外部特征 大学课程 作业" title="大学以来的课程从外部特征和内容特征描述" tmap.id="ba56ca30-a2fa-4f5e-aab2-20f2f91b50dc">
 <pre>|课程|外部特征|内容特征|
@@ -11026,32 +10996,119 @@ Mendeley的一些局限：（1）不能自己生成各种Style；（2）内嵌pd
 <div created="20191125132344339" modified="20191125132344339" title="大方臭豆腐" tmap.id="dc18a672-0b54-421a-b53a-79864c6ec559">
 <pre></pre>
 </div>
-<div created="20191125132453851" modified="20191125132453851" title="大方豆干" tmap.id="9c6d9e9c-38aa-4a05-9e05-22f798045ca2">
-<pre></pre>
+<div created="20191125132453851" modified="20191211092018050" tags="家乡小吃 作业" title="大方豆干" tmap.id="9c6d9e9c-38aa-4a05-9e05-22f798045ca2">
+<pre>[img[http://h2.bytravel.cn/shop/head3/45793.gif]]
+
+一方水土不仅养育着一方的百姓，也培育出独具特色的地方特产。美味飘香的大方豆制品，便是依托于大方这块宝地的山和水所生产出来的特色食品。大豆，这种寻常之物，经过勤勉的大方人精心的调弄，做成了豆干、豆棒、豆豉等花样繁多、滋味悠长的豆制品。1957年，大方豆棒被列为“贵州省传统名特食品”。2011年9月，中国食品流通协会授予大方县“中国豆制品之乡”的荣誉称号。2013年，大方豆制品制作工艺被列为省级“非物质文化遗产”。</pre>
 </div>
-<div created="20191125140018309" modified="20191125140018309" title="大方豆棒" tmap.id="6043f2d7-af1d-4158-84f8-9967f4b56bf6">
-<pre></pre>
+<div created="20191125140018309" modified="20191211091925683" tags="家乡小吃 作业" title="大方豆棒" tmap.id="6043f2d7-af1d-4158-84f8-9967f4b56bf6">
+<pre>[img[http://h2.bytravel.cn/shop/head3/45794.gif]]
+
+1957年，大方豆棒被列为“贵州省传统名特食品”。2011年9月，中国食品流通协会授予大方县“中国豆制品之乡”的荣誉称号。2013年，大方豆制品制作工艺被列为省级“非物质文化遗产”。用豆皮紧裹成棒，风干后即可，吃的时候拿下一根，用水泡开，然后切成片，可以炒着吃，煮着吃。。。可是，这切豆棒可是个费力活。</pre>
 </div>
-<div created="20191125135942449" modified="20191125135942449" title="大方闯丫黄粑" tmap.id="a4fa4370-55db-4953-9ff3-a6b574ff4b69">
-<pre></pre>
+<div created="20191125135942449" modified="20191211092706655" tags="家乡小吃 作业" title="大方阁丫黄粑" tmap.id="a4fa4370-55db-4953-9ff3-a6b574ff4b69">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33090.gif]]
+
+       大方阁丫黄粑是贵州省毕节市大方县的特产。阁丫黄粑成品呈杏黄色或樱桃色，口感上乘，软糯绵韧，滋润甘甜，食之颇能体味生活之甜蜜。
+
+　　黄粑，是每一个大方人都享用过的小吃，它象征着五谷丰登和合家团圆的吉祥之意。古老的方法是将粳米、糯米、大豆等磨成浆，经大火蒸、文火旱而制成，故俗称黄粑为“旱黄粑”。如今有机器可借仗，便只需将上述原料打制成粉，加水加糖揉和成团，用玉米叶包好蒸、旱即可。
+
+　　大方黄粑之中，“阁丫黄粑”享誉最高，邻近各县皆闻其名。
+
+　　阁丫驿系奢香所开九驿之一，现属东关乡。此地出沙水，其味甘凉，惟因是故，做出的黄粑口感上乘。成品呈杏黄色或樱桃色，软糯绵韧，滋润甘甜，食之颇能体味生活之甜蜜。相传黄粑就是驿使的主要食品之一，因为黄粑便于携带，久存不干。阁丫黄粑之所以闻名，就是奢香九驿成就它的。</pre>
 </div>
 <div created="20191125134734699" modified="20191125134734699" title="姑开天然矿泉水" tmap.id="e8dcb2d2-4b3f-479f-9b34-b4aee6231ebc">
 <pre></pre>
 </div>
-<div created="20191125133634497" modified="20191125133634497" title="威宁小粑粑" tmap.id="fbf07aca-c66f-43d4-91e0-edbb95c4a2a6">
-<pre></pre>
+<div created="20191125133634497" modified="20191211092424874" tags="家乡小吃 作业" title="威宁小粑粑" tmap.id="fbf07aca-c66f-43d4-91e0-edbb95c4a2a6">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33097.gif]]
+
+        威宁县小粑粑馅子的香味十分诱人，表面和软，底面焦黄香脆，吃起来清爽可口。
+
+　　威宁小粑粑是毕节地区威宁彝族回族苗族自治县的一种特色食品，是入选《中华食文化大辞典·黔菜卷》的著名特色小吃。
+
+　　主要原料：
+
+　　威宁小粑粑是精心选制本地土特产荞麦及火腿作为材料精制而成。荞麦是面皮的主要原料，火腿是馅的主要原料。
+
+　　面皮的主要制作方法：
+
+　　先把荞麦碾成面粉状（也有的直接用面粉来做，但味道不如荞麦面做的），将荞面和水做成面皮，切割成约35－45厘米大小的圆形状。
+
+　　馅的制作：
+
+　　把切好的火腿、豆腐、腌菜、葱姜蒜辣（馅的成份可根据个人的喜好加入不同的成份）等用油炒好就成了馅。
+
+　　威宁小粑粑的制作过程：
+
+　　面皮和馅制作完成后，将炒好的馅包进面皮里去，然后将小粑粑放进锅里，圆放成几圈，锅底放点水，盖紧锅盖，不让漏气，直到锅里水烧干、稍候片刻，小粑粑里面的油浸了出来，锅底就有了油炸的响声。这时小粑粑也就做好了，馅子的香味十分诱人，表面和软，底面焦黄香脆，吃起来清爽可口。
+
+　　如今，历经几十年的岁月，威宁小粑粑得到广大消费者的认可，成为当地最具风味的特色小吃之一。</pre>
 </div>
 <div created="20191125131659052" modified="20191125132043796" title="威宁彝族回族苗族自治县" tmap.edges="{&quot;3b63174b-54d4-4cf6-af80-8aa98e702290&quot;:{&quot;to&quot;:&quot;56271e2e-f0b5-447a-972f-35b095dadbe9&quot;,&quot;type&quot;:&quot;属于&quot;},&quot;1ad3379d-dfa2-4893-a4bc-ee0858ed07ec&quot;:{&quot;to&quot;:&quot;d1b63da3-288a-4e1b-8e74-7fe2618122e1&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;99da4832-1400-4267-a02a-39b86f96248c&quot;:{&quot;to&quot;:&quot;91df81a9-5957-40fb-8dfb-e0b9a30d3761&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;c0073c64-ac9b-4faf-9e7b-56cfe9a34abf&quot;:{&quot;to&quot;:&quot;fbf07aca-c66f-43d4-91e0-edbb95c4a2a6&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;9e4f1fff-1d1a-4991-8bc9-11db3a85862a&quot;:{&quot;to&quot;:&quot;317a9bc2-9235-41c0-927a-8308c2713047&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;d316b982-b925-4599-b022-9351ac4748a6&quot;:{&quot;to&quot;:&quot;ec6b1e07-d648-4b67-a2a0-09576804b229&quot;,&quot;type&quot;:&quot;包括&quot;}}" tmap.id="b8b8e2aa-e308-488c-922a-3a6be3783a53">
 <pre></pre>
 </div>
-<div created="20191125132700093" modified="20191125132700093" title="威宁火腿" tmap.id="d1b63da3-288a-4e1b-8e74-7fe2618122e1">
-<pre></pre>
+<div created="20191125132700093" modified="20191211090708948" tags="知识图谱 家乡小吃 作业" title="威宁火腿" tmap.id="d1b63da3-288a-4e1b-8e74-7fe2618122e1">
+<pre>[img[http://h2.bytravel.cn/shop/head/7663.gif]]
+
+       威宁火腿是贵州的传统特产，已有600多年的历史，早就闻名海内外。威宁海拔2000多米，属高寒的乌蒙山区，漫山遍野生长着丰富的牧草，历史上畜牧业就十分发达，当地的彝族同胞又有赶山放牧的习俗，猪牛羊同群为伍，运动量大，猪腿非常发达，肌肉结实饱满，肥瘦肉交错；本地的可乐猪和法地猪等优良品种又有耐粗养耐寒的特点，瘦肉率高。从明洪武年间起，这里的彝族百姓就喜欢用火熏腌制腊肉，贮存食用，为制作威宁火腿创造了条件。威宁火腿，肉色棕红，色泽鲜艳，骨小皮薄，肉食细嫩，清香味美，多食不腻。
+
+　　威宁火腿完全用传统方法制作，杀猪后不吹即刮毛，然后用刀把鲜腿修整成美观好看的“琵琶腿”或“盘腿”，剔去杂骨，油皮，挑断雪筋，挤掉血水，不着水即把炒熟的盐用10：1的量，再加少许茴香、花椒等佐料擦在鲜腿上，放在大木桶或缸内腌泡5—7天，取出后再用石头压干盐血水，使之成扁形，再挂在通风处风干即成。另一种不风干，把腿挂在火坑上用湿松枝、湿柏枝、酥麻杆的烟熏烤，因为烟肉食有酸类、醛类和酚类物质，一则杀菌，二则味美，三则耐贮存。一般这种熏过的腿可存放五六年，不流油、不变味，而且腊味更加浓郁香美。
+
+　　威宁火腿分“陈腿”和“新腿”，头年腌制到次年秋前出售的叫“新腿”，秋后出售的叫“陈腿”或“老腿”。新腿肉层内部其味芬芳，层次鲜明，滋味可口，陈腿切开后肥肉呈粉红色，瘦肉呈殷红色，肉质紧密，水分少，油光滋润，味道鲜美。
+
+　　　威宁的黑石、金钟、幺站等地产的火腿最多最好，与“宣威火腿”齐名。旧社会由于交通不便，威宁火腿多以云南宣威为集散地，当时的“宣威火腿”有相当一部分是威宁火腿。现在用威宁火腿加工的罐头已远销日本、东南亚各国及港澳地区，受到消费者的欢迎。</pre>
 </div>
-<div created="20191125132848609" modified="20191125132848609" title="威宁荞酥" tmap.id="91df81a9-5957-40fb-8dfb-e0b9a30d3761">
-<pre></pre>
+<div created="20191125132848609" modified="20191211091018564" tags="知识图谱 家乡小吃 作业" title="威宁荞酥" tmap.id="91df81a9-5957-40fb-8dfb-e0b9a30d3761">
+<pre>[img[http://01.imgmini.eastday.com/mobile/20171124/20171124141701_225c5aea92a4978fc9cc50e14a7d2d43_1.jpeg]]
+
+
+精美的威宁荞酥威宁荞酥以苦荞粉面为主要原料，加白糖、红糖、猪油、菜油等多种配料制成，主要品种有白糖、洗沙、玫瑰、火肘、水晶、枣泥等，年产量约10万公斤左右，远销省内外，为全国独家特产。荞酥因色泽金黄又称“金酥”。传说水西彝族土司蔼翠的夫人奢香将乌撒（今威宁、赫章一带）的苦荞面加红糖、猪油、鸡蛋及香料制成“九龙捧寿”的酥饼进贡朱元璋，朱元璋品尝后赞叹不已，称荞酥为“南方贵物”。威宁荞酥味香，入口酥松易化，既可充饥，又有清凉解热的保健功能，凡是尝过威宁荞酥的人都为它酥香可口的味道赞不绝口。
+
+　　　　威宁荞酥-制作方法
+
+　　　　威宁荞酥
+
+　　　　原料：
+
+　　　　苦荞细粉1千克 红糖粉60克 白糖粉40克 熟菜籽油20克 猪油150克 鸡蛋3个 白矾6克 苏打8克 白碱5克 熟苦荞粉300克 火腿1000克 玫瑰糖50克 洗沙300克 桃仁50克 冰桔30克 苏麻50克 瓜条20克 椒盐25克
+
+　　　　制作方法：
+
+　　　　1．先将适量红糖加水煮沸，熬成红糖水，停火后，放入菜油(为面粉重量的20%左右)，再依次加入碱、小苏打和白矾水，搅匀后加入荞面、鸡蛋，将面团和好后从锅内取出，晾8～12小时作为面粉。
+
+　　　　2．将红小豆煮烂，洗成沙，加入红糖，煮至能成堆时，加入熟菜油出锅，即成馅料。
+
+　　　　3．将面团分若干剂子，擀成皮，包入馅心，在印模内成型，入炉烘烤，至皮酥黄即成。
+
+　　　　工艺：
+
+　　　　先用细筛筛出最细的荞面，按一定的比例加红糖、鸡蛋菜油及少量白矾、苏打、白碱等拌匀。馅料主要是小豆，其次是芝麻、玫瑰糖、瓜条、红糖和熟菜油。制作时先将红糖加入适量的水煮沸，另外加入菜油，再一次煮沸，然后加入白碱、苏打、白矾混合均匀后，放入荞面、鸡蛋，拌好放在案上晾一天左右，直到面料完全凉透为止。准备馅料时，要把小豆先煮好，打成粉末，加入红糖再煮，待水将干时，加入菜油拌匀，最后包心、压模、烘烤而成。其形状有扁圆和扁方形两种，正面刻有清晰花纹，由于它颜色金黄，人们又称之为金酥。
+
+　　　　威宁荞酥-历史传说
+
+　　　　荞麦花威宁荞酥初产于明洪武年间，传说明太祖朱元璋有一年做寿，奢香夫人特意吩咐厨师采用当地土产荞面拌糖做成一种既精美别致又有地方特色的糕点。可是多次试验都没有成功，眼看寿期临近，奢香夫人心急如焚，到处颁布告示，如有人做成此种糕点愿出重金奖赏。有个叫丁成久的重庆人揭了告示。他反复琢磨，对照传统糕点，并各取所长，终于制成了一种非常精致的糕点取名“荞酥”。&quot;荞酥&quot;每块重8斤，上面刻有九条龙，九龙中间刻有一个“寿”字，象征九龙献寿。令奢香夫人非常满意。朱元璋品尝后大为赞赏，称为“南方贵物”。后来“荞酥”历代相传，现在已不是八斤一块，而是一斤八块了。制作方法也很特殊，先筛出最细的荞面，按比例加红糖、鸡蛋、菜油做主料。馅料主要由小豆和芝麻、瓜条搭配而成。造形呈扁圆和扁方，并刻有清晰花纹。由于&quot;荞酥&quot;颜色金黄，香甜爽口，又称为“金酥”。花色也增加到水晶、玫瑰、火腿等十多个品种了。
+
+　　　　威宁荞酥-饮食文化
+
+　　　　威宁荞酥包装
+
+　　　　威宁属高寒山区，盛产苦荞、甜荞，常以荞粑为主食。苦荞味苦，但用苦荞粉精心制作的荞酥却甜美芳香，为众多黔点中的姣姣者。
+
+　　　　自古以来，荞麦是彝家人的主要粮食作物和惯于食用的主食，在彝族包含中占有重要的位置。时至今日，各类营养丰富的荞麦制品仍同彝族人民相伴。在彝家山寨，无论婚丧喜事，逢年过节，还是宗教活动，饮食祭祀都离不开荞麦食品。彝族人民熟制的荞麦食品有“千层荞饼”、“荞年糕”、“荞凉粉”、“虫荠饼”、“蛇荞饼”、“荞麦饭”等多种。而以清香甜酥著称的贵州威宁荞酥为最上乘。
+
+　　　　威宁荞酥是贵州彝族的传统名嘱点心。约5千克一个，是用荞面、红糖、菜油、小豆、芝麻、玫瑰、瓜条等原料精制而成的带馅糕点。有扁圆和扁方形两种，正面刻有花纹，色泽金黄，具有清香甜脆，美味独具的特点。据说这种点心早在明朝初年就已负盛名，传说是由明代贵州彝族女士司奢香的厨师丁成久创制的。始为专供土司奢香夫人食用，上刻有九龙捧寿的图案，曾在朱元璋生日时进献，被列为贡品之一。后来才慢慢变为民间大众的食品。
+
+　　　　威宁荞酥-营养价值
+
+　　　　荞麦、荞粉的蛋白质高于大米和糯米，富含碳水化合物及多种维生素和微量元素苦荞碱性较重，有健胃、消火、降压的功能，常食对肺结核患者有辅治作用。
+
+　　　　荞麦含有丰富的维生素E和可溶性膳食纤维，同时还含有烟酸和芦丁（芸香甙），芦丁有降低人体血脂和胆固醇、软化血管、保护视力和预防脑血管出血的作用。它含有的烟酸成分能促进机体的新陈代谢，增强解毒能力，还具有扩张小血管和降低血液胆固醇的作用。荞麦含有丰富的镁，能促进人体纤维蛋白溶解，使血管扩张，抑制凝血块的形成，具有抗栓塞的作用，也有利于降低血清胆固醇。荞麦中的某些黄酮成分还具有抗菌、消炎、止咳、平喘、祛痰的作用。因此，荞麦还有“消炎粮食”的美称。另外这些成分还具有降低血糖的功效。祖国医学认为，荞麦性味甘平，有健脾益气、开胃宽肠、消食化滞的功效。</pre>
 </div>
-<div created="20191125133726584" modified="20191125133726584" title="威宁荞饭" tmap.id="317a9bc2-9235-41c0-927a-8308c2713047">
-<pre></pre>
+<div created="20191125133726584" modified="20191211093207185" tags="家乡小吃 作业" title="威宁荞饭" tmap.id="317a9bc2-9235-41c0-927a-8308c2713047">
+<pre>[img[http://h2.bytravel.cn/shop/head1/28205.gif]]
+
+       当地最有名的荞饭馆是桥边荞饭馆。你可以要完全的荞饭，就是全部由苦荞做成，但是纯粹的荞饭不容易消化，一般人要的都是荞饭加上米饭混合的那种，吃哪种饭店老板会先来实现征求你的意见。配菜由你自己定，这跟吃白米饭无区别。当然最简单的吃法就是下红豆酸菜汤吃，红豆酸汤在贵阳也可吃到，出了贵州一般就寻不到红豆酸汤的踪影了。</pre>
 </div>
 <div created="20191125134227178" modified="20191125134227178" title="富硒SOD大枣" tmap.id="4ea3312d-f7ec-4892-bc3e-c8bfa4233688">
 <pre></pre>
@@ -11059,8 +11116,23 @@ Mendeley的一些局限：（1）不能自己生成各种Style；（2）内嵌pd
 <div created="20191125134316591" modified="20191125134316591" title="寿森园黄粑" tmap.id="8c56b186-2d2e-41d5-acc7-449ee02205ed">
 <pre></pre>
 </div>
-<div created="20191125134641471" modified="20191125134641471" title="彝家刺梨酒" tmap.id="0d669445-6a5c-499c-9a76-190d25849f67">
-<pre></pre>
+<div created="20191125134641471" modified="20191211093109993" tags="家乡小吃 作业" title="彝家刺梨酒" tmap.id="0d669445-6a5c-499c-9a76-190d25849f67">
+<pre>[img[http://h2.bytravel.cn/shop/head1/28213.gif]]
+
+       纳雍彝家刺梨酒是贵州省毕节市纳雍县的特产。彝家刺梨酒呈桔黄色，酸甜适度，甘美清香。不但有一定的营养价值，且有治痢疾的特效。
+　　刺梨酒为贵州名优产品，驰名全国，饮誉省内外，前清时就远销京城(北京)。刺梨酒“越黔境乃无”，此说并不为过，确实只有贵州才有这个条件。上面说的只不过是市场上销售的刺梨酒，而纳雍彝家刺梨酒则鲜为人知，它是民族地区的土特产。
+
+　　彝家刺梨酒是咂酒的又一种，也称竿儿酒。“莲花细剥回子白，刺梨争咤竿儿醅”的诗句是古人对这种咂酒的生动描绘，可见酿造刺梨酒的方法在少数民族地区已是历史悠久。
+
+　　纳雍乃水西故地，古时是彝族聚居区，盛产刺梨，随着社会的发展，在长期的生活实践中，彝家就用刺梨酿酒过节，并逐步用来祭祀和招待客人。酿制的方法大体是这样：
+
+　　原料：糯米、干刺梨、蜂糖、白酒。
+
+　　做法：每年夏末秋初到山上采集刺梨用竹刀切破晒干，加工筛簸干净，无雨夜放于露天采露水或蒸熟消毒，去其暴气再晾干用纱布做的小袋装好。
+
+　　农历九月重阳节前后用糯米做成甜酒，装坛时按比例先把袋装刺梨和蜂糖放于坛底，然后舀酒入坛，加白酒后用泥将坛口封固，一般泡三个月就可打开作饮料。若入土下窖半年或一年后取出，酒糟全部化尽成酿子，呈桔黄色，酸甜适度，甘美清香。
+
+　　刺梨果实可入药。含有多种维生素和氨基酸，因此彝家刺梨酒不但有一定的营养价值，且有治痢疾的特效。</pre>
 </div>
 <div created="20191112043816676" modified="20191113083621467" tags="信息管理与信息系统 相关性 思维导图 作业" title="思维导图" tmap.id="53116ea3-e615-44de-a66d-ca5756fb0655">
 <pre>! ''一、用思维导图画出信息管理与信息系统专业的专业性''
@@ -11178,8 +11250,10 @@ Vivisimo是一个搜索引擎，由Carnegie Mellon大学计算机科学系的科
 360搜索，SO靠谱。
 </pre>
 </div>
-<div created="20191125135413571" modified="20191125135413571" title="擂茶糍粑" tmap.id="d69a227f-fa18-4f3e-84d4-35be5ec8f781">
-<pre></pre>
+<div created="20191125135413571" modified="20191211092828937" tags="家乡小吃 作业" title="擂茶糍粑" tmap.id="d69a227f-fa18-4f3e-84d4-35be5ec8f781">
+<pre>[img[http://h2.bytravel.cn/shop/head1/28238.gif]]
+
+       擂茶糍粑是黔西苗族的独特产品，具有润肠清热，滋补身体的药性功能和提神健胃之功效。系黔西一位苗族草医开方治病而传民间，逐步演变而成。其制作是以火麻籽炒熟擂细，放入锅内加水搅拌滤去皮壳，放适量食盐葱花，便成“擂茶”。将油炸粑放入擂茶中浸泡而食之，脆软清香、鲜醇滑润、外酥里软、香味醇厚，是小吃中的佳品，2003年曾获“毕节地特美食——夜郎文化美食奖”二等奖。</pre>
 </div>
 <div created="20191125134509837" modified="20191125134509837" title="新猫场砂锅" tmap.id="2f40d39e-b024-42e5-a30a-85c7c3e4c3ea">
 <pre></pre>
@@ -11190,69 +11264,172 @@ Vivisimo是一个搜索引擎，由Carnegie Mellon大学计算机科学系的科
 <div created="20191125131419772" modified="20191125131633637" title="毕节市" tmap.id="56271e2e-f0b5-447a-972f-35b095dadbe9">
 <pre></pre>
 </div>
-<div created="20191125134129135" modified="20191125134129135" title="沙土羊肉粉" tmap.id="9ddf6ae8-506f-4a96-8915-28b850b9a199">
-<pre></pre>
+<div created="20191125134129135" modified="20191211093317857" tags="家乡小吃 作业" title="沙土羊肉粉" tmap.id="9ddf6ae8-506f-4a96-8915-28b850b9a199">
+<pre>[img[http://h2.bytravel.cn/shop/head1/24890.gif]]
+
+       沙土羊肉粉是贵州省毕节市金沙县沙土镇的特产。金沙县沙土镇米粉粗如竹筷，微酸鲜滑，有大米的清香，入口即化。
+　　沙土羊肉粉选用散放的本地矮脚山羊，越重越肥为好，这种山羊膻味适中，肉细味鲜。活羊拿来后，宰杀拨皮，清理内脏，精刀去骨。羊肉割成几大块，放朝天大铁锅秘制汤中大火去浮沫，小火慢慢熬制。羊肉煮过心后，掌握好软硬度，取出自然冷却隔上一夜，切成大小适中，薄如蝉翼的肉片备用。熬制的原汤应该清而不浊，鲜而不腥，避腥香料放多则有药味，放少则膻腥味熏人，各家味道是否正宗首先要看这一锅汤的功夫。羊肉粉油辣椒的制作水平可以分出味道高下，一般选用贵州本地香而不辣的干辣椒粉碎，用羊油炒制，正宗的遵义和金沙羊肉粉用细如盐粒的粉末辣椒，火候不到，辣椒生嫩；火候过了，辣椒糊臭。一般小店不懂其中奥妙，为图省事，干脆改用粗辣椒末制作，味道相去就远了。
+
+　　推荐理由：独有乌山黑山羊烹制，肉质鲜美、没有膻味。
+
+　　做法：矮脚山羊，越重越肥为好，这种山羊膻味适中，肉细味鲜。活羊拿来后，夜半杀羊、宰杀拨皮，清理内脏，精刀去骨。全羊入锅配以密制调料炖汤至拂晓开锅，汤色乳白、香郁鲜美。
+
+　　特色：开胃健脾、温补肾阳、是滋补身体的最佳食品。</pre>
 </div>
-<div created="20191125135838431" modified="20191125135838431" title="海马宫茶" tmap.id="4c9596f8-17d4-428d-abb8-ebe565e2ee1e">
-<pre></pre>
+<div created="20191125135838431" modified="20191211093443080" tags="家乡小吃 作业" title="海马宫茶" tmap.id="4c9596f8-17d4-428d-abb8-ebe565e2ee1e">
+<pre>[img[http://h2.bytravel.cn/shop/head/19355.gif]]
+
+        海马宫茶产于贵州省大方县的右鹰岩脚下的海马宫乡。茶园三面临山，一面通向河谷，海拔高达1500米左右，山高云浓，溪水纵横，年均气温13℃左右，全年有效积温4670℃，无霜期260天，年降雨量1000—1200毫米，月平均相对湿度80%以上，为贵州省较寒冷的高湿茶区。然而茶园三面环山却构成一幅天然屏障，阻挡着寒冷空气的侵袭，再加上境内植被茂密，形成小区气候条件独特。而且海马宫茶园成土母质为砂页岩，土质疏松，钾元素含量丰富，达127ppm，pH4.6—4.9，适于茶树生长。
+　　海马宫茶采于当地中、小群体品种，具有茸毛多，持嫩性强的特性。谷雨前后开采。采摘标准：一级条为一芽—叶初展；二级茶为一芽二叶，三级茶为一芽三叶。这与清光绪（公元1890年）《铜仁府志》所说的：“茶叶以背有白毛者佳，宜谷雨前数日采之”相吻合。
+
+　　海马宫茶加工工艺分杀青、初揉、渥堆、复揉、再复炒、再复揉、烘干、拣剔等工序。具体做法是：
+
+　　杀青，在锅径35—50厘米平底新锅内进行，锅温140℃左右，投叶量700克左右。要求杀透杀匀，当叶面光泽消失，茶香透露，起锅乘热进行初揉。当芽叶成条即进行渥堆，就是将茶殷成小团，用干净白布包裹好，放在盆内，压紧渥堆24小时，揉捻叶在渥堆的湿热条件作用下，形成了海马官茶别具一格的品质风格。渥堆好的茶叶，再经反复二次揉捻和炒干，达到揉紧条索、蒸发水分、增进香气的目的。最后的烘干工序是在灶上进行，采用文火慢炕，时间长达10多个小时，以达到香高味醇和足干的目的。足干叶经过拣剔过筛，剔除组叶杂物，筛去碎末，分级包装贮藏。加工海马宫茶全过程历时30多小时。
+
+　　海马宫茶属黄茶类名茶。具有条索紧结卷曲，茸毛显露，香高味醇，回味甘甜，汤色黄绿明亮，叶底嫩黄匀整明亮的特点。</pre>
 </div>
 <div created="20191125134556993" modified="20191125134556993" title="燕麦炒面" tmap.id="1ba8af79-e70e-4b74-bcad-2494bfbc1bdb">
 <pre></pre>
 </div>
-<div created="20191119094312656" modified="20191119094951378" tags="音频 视频 图像 文本 格式 分类 表格 作业" title="用表格将文本、图像、视频和音频格式分类" tmap.id="56ce55a0-22de-4d8f-885e-7e281e21abcf">
+<div created="20191211094549383" modified="20191211095317629" tags="分类 表格 作业" title="用表格将文本、图像、视频和音频格式分类" tmap.id="89e1c0b2-e960-422d-b177-ece88b447f82">
 <pre>|类型|格式|
-|^视频|^wmv、asf 、mov、m4v、avi、dat、flv、vob、rm、amv、mpeg1-4|
-|音频|AIFF、AU 、MIDI、MP3、WAV、RA、RM、MPEG、SWF、QT、WMV|
-|,文本|,TXT、DOC 、PPT、XLS、MP4、DOCX、PPTX、PRD、PMD、TMDX、PRDX|
-|图像|bmp、jpg、png、tif,gif、pcx、tga、exif、fpx、svg、psd、cdr、pcd、dxf、ufo、eps、ai、raw、WMF、webp|</pre>
+|文本|主要文档格式包括：.txt（纯文字文档），.rtf（丰富文本格式），.doc（微软Word文档），.xls（微软Excel表格），.ppt（微软PowerPoint演示文稿），.htm/html（网页），.wpd（Corel WordPerfect文档）以及.pdf（可移植文档格式）等等。|
+|图像|1、BMP格式 2、JPEG格式 3、GIF格式 4、PSD格式 5、PNG格式等|
+|视频|rm，rmvb，mpeg1－4 mov mtv dat wmv avi 3gp amv dmv|
+|音频|CD；OGG；MP3；ASF、WMA；WAV；MP3PRO；RM；REAL；APE；MODULE；MIDI；VQF|</pre>
 </div>
-<div created="20191209125259352" modified="20191209132107781" tags="家乡小吃 知识图谱 作业" title="目录" tmap.id="fce7c21f-1ef3-44b3-a843-9792c3b3a33a">
-<pre>[[织金宫保鸡丁]]
+<div created="20191209125259352" modified="20191211100223749" tags="所有作业 家乡小吃 作业" title="目录" tmap.id="fce7c21f-1ef3-44b3-a843-9792c3b3a33a">
+<pre>''一、思维导图''
+
+[[思维导图]]
+
+''二、视频翻译''
+
+[[”information management“视频翻译]]
+
+''三、Mendeley使用评价''
+
+[[Mendeley使用评价]]
+
+''四、信息栈''
+
+[[信息栈]]
+
+''五、量子波动速读超强学习法''
+
+[[量子波动速读超强学习法]]
+
+''六、了解标准相关的知识（标准的种类，标准的编号）''
+
+[[了解标准相关的知识（标准的种类，标准的编号）]]
+
+''七、运用“网络信息评价指标体系”对我校图书馆的主页做出评价''
+
+[[运用“网络信息评价指标体系”对我校图书馆的主页做出评价]]
+
+''八、用表格将文本、图像、视频和音频格式分类''
+
+[[用表格将文本、图像、视频和音频格式分类]]
+
+''九、大学以来的课程从外部特征和内容特征描述''
+
+[[大学以来的课程从外部特征和内容特征描述]]
+
+''十、西西弗书店分类''
+
+[[西西弗书店分类]]
+
+''十一、家乡小吃''
+
+1.织金县
+
+[[织金宫保鸡丁]]
+
 [[血豆腐]]
-[[织金荞凉粉]]
-[[织金发粑]]
+
+2.大方县
+
 [[大方豆棒]]
+
 [[大方闯丫黄粑]]
+
 [[海马宫茶]]
+
 [[八堡苗家水花酒]]
+
 [[豆豉粑]]
-[[龙华脆皮豆腐]]
-[[黔西素辣椒]]
-[[擂茶糍粑]]
-[[赫章红花山茶油]]
-[[核桃糖]]
-[[韭黄肉丝]]
-[[赫章殷桃]]
-[[赫章核桃]]
-[[纳雍竹荪]]
-[[纳雍火把鱼]]
-[[姑开天然矿泉水]]
-[[彝家刺梨酒]]
-[[燕麦炒面]]
-[[鸡场豆腐]]
-[[新猫场砂锅]]
-[[寿森园黄粑]]
-[[富硒SOD大枣]]
-[[沙土羊肉粉]]
-[[雄泰大头菜]]
-[[金沙贡茶]]
-[[金沙回沙酒]]
-[[草海细鱼]]
-[[威宁荞饭]]
-[[威宁小粑粑]]
-[[威宁荞酥]]
-[[威宁火腿]]
+
 [[大方豆干]]
-[[大方臭豆腐]]</pre>
+
+3.黔西县
+
+[[龙华脆皮豆腐]]
+
+[[黔西素辣椒]]
+
+[[擂茶糍粑]]
+
+4.赫章县
+
+[[赫章殷桃]]
+
+[[赫章核桃]]
+
+5.纳雍县
+
+[[纳雍竹荪]]
+
+[[纳雍火把鱼]]
+
+[[彝家刺梨酒]]
+
+6.金沙县
+
+[[沙土羊肉粉]]
+
+[[金沙贡茶]]
+
+[[金沙回沙酒]]
+
+7.威宁县
+
+[[草海细鱼]]
+
+[[威宁荞饭]]
+
+[[威宁小粑粑]]
+
+[[威宁荞酥]]
+
+[[威宁火腿]]
+
+
+</pre>
 </div>
 <div created="20191125131515789" modified="20191125131608068" title="纳雍县" tmap.edges="{&quot;876a75a9-d380-4173-9cdc-9bf80cd5cca4&quot;:{&quot;to&quot;:&quot;56271e2e-f0b5-447a-972f-35b095dadbe9&quot;,&quot;type&quot;:&quot;属于&quot;},&quot;9e678d02-7fdd-418e-ae7b-278fe30ac092&quot;:{&quot;to&quot;:&quot;2f40d39e-b024-42e5-a30a-85c7c3e4c3ea&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;6f150730-83f9-43ad-8ff8-76d60ed3c5b0&quot;:{&quot;to&quot;:&quot;d629e7ef-7216-4cf8-9436-5945738bc08d&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;fc43fbec-d783-4f6c-a75e-bca914bcc9a7&quot;:{&quot;to&quot;:&quot;1ba8af79-e70e-4b74-bcad-2494bfbc1bdb&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;6a31eae6-f2b8-412c-9a14-331b6f1db615&quot;:{&quot;to&quot;:&quot;0d669445-6a5c-499c-9a76-190d25849f67&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;b37ff0e5-233e-4a02-97a0-f94e90ea124a&quot;:{&quot;to&quot;:&quot;e8dcb2d2-4b3f-479f-9b34-b4aee6231ebc&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;4d438a21-823e-4b49-af2e-6cc6706f89a9&quot;:{&quot;to&quot;:&quot;bfc5cce9-9b8f-4bda-a951-2bf804272668&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;015b3c0c-eee1-4212-8ff2-54fd605e6058&quot;:{&quot;to&quot;:&quot;ed138f90-037b-43f7-b22c-abacba5732db&quot;,&quot;type&quot;:&quot;包括&quot;}}" tmap.id="e84ce153-39d9-4809-95e9-3c5981e379fb">
 <pre></pre>
 </div>
-<div created="20191125134803520" modified="20191125134803520" title="纳雍火把鱼" tmap.id="bfc5cce9-9b8f-4bda-a951-2bf804272668">
-<pre></pre>
+<div created="20191125134803520" modified="20191211093731000" tags="家乡小吃 作业" title="纳雍火把鱼" tmap.id="bfc5cce9-9b8f-4bda-a951-2bf804272668">
+<pre>[img[http://h2.bytravel.cn/shop/head/16011.gif]]
+
+        纳雍“火把鱼”，是纳雍县食品中的一绝。是用柴火精工烤成的一种独特风味的干鱼。
+
+　　 纳雍县东南有一条流经路嘴、木城、簸落、水东、大兴厂、武佐一带的小河，由于流经之处山峦重叠，原始植被保存完好。河底多沙石岩层地带，无任何污染，两岸绿树青山相映衬，日照、雨量充沛，河水清澈见底，极适宜于鱼类的生长。这条河里的鱼主要靠食小虫和石浆生活，因此肉肥味美，享誉远近。
+
+　　 最适宜制“火把鱼”的鲜鱼，一般重量在一二两之间。先将捕来的鲜鱼去掉肠肚，继用约20厘米长的竹签穿连成一串，宛如小螺丝似的，置于青棡柴火上烘烤(禁用煤火烤)，直至烤熟烤黄为宜，风干后即可上市出售。吃干“火把鱼”讲究烹调技术，一般采用干炸法，先将鱼串上的鱼逐一取下，把鱼骨鱼肉分别剔出，用沸菜油将鱼骨炸脆作干盘用；鱼肉用混合油(一般用猪油、植物油混合)，将事前准备好的佐料如盐、味精、姜、葱蒜、油红辣椒、鱼香菜等放入锅内与鱼肉一起炒，适时铲出可食用，味道鲜美。</pre>
 </div>
-<div created="20191125134838776" modified="20191125134838776" title="纳雍竹荪" tmap.id="ed138f90-037b-43f7-b22c-abacba5732db">
-<pre></pre>
+<div created="20191125134838776" modified="20191211093836632" tags="家乡小吃 作业" title="纳雍竹荪" tmap.id="ed138f90-037b-43f7-b22c-abacba5732db">
+<pre>[img[http://h2.bytravel.cn/shop/head/16010.gif]]
+
+       纳雍竹荪是贵州省毕节市纳雍县的特产。纳雍盛产各种品种的竹荪，年产数百吨，体大、洁白、风味独特，尤以竹荪开发的系列产品前景更可观。
+
+　　竹荪又叫竹花，也称仙人伞。其形态婀娜多姿，十分美丽，我国称蘑菇皇后，国外称真菌之花。
+
+　　竹荪嗅之似有甜酒香味，令人神往；食之脆嫩可口。用以作汤，风味独特，高温季节置竹荪于肉汤中，经数日而汤仍鲜味犹存。历史上早就作为美味佳肴，深受历代帝王偏爱，博得“京果之王”的美称。其中尤以“竹荪芙蓉汤”名气最大。从古至今，在对外活动中，曾以竹荪作为高级“馈赠礼品”，外国朋友称为“软黄金”。 1972 年基辛格首次访华，1总理用这一名肴款待，令其难以忘怀，基氏就把此事写进了他的回忆录中，从此“竹荪芙蓉汤”就随《基辛格回忆录》一起名扬四海了。
+
+　　　　竹荪外观上由菌盖、菌柄、菌裙、菌托四部分组成，在其生长过程中，放眼望去好似一位头戴黄棕色菠萝帽，身披白纱巾，耸立于荷花绽开的托盘 ( 菌托 ) 之中，如亭亭玉立的阿拉伯少女，洁白无瑕。在一簇簇竹荪的脚下，还会见到一团团孕育竹花的大竹蛋。在纳雍县人们家中种的一盆盆竹荪如盆景一般，玲珑剔透，赏心悦目。
+
+　　　　纳雍盛产各种品种的竹荪，年产数百吨，体大、洁白、风味独特，尤以竹荪开发的系列产品前景更可观。</pre>
 </div>
 <div created="20191125131533357" modified="20191125131622421" title="织金县" tmap.edges="{&quot;6246defa-164d-4c72-b1db-c8bd9d78d4eb&quot;:{&quot;to&quot;:&quot;56271e2e-f0b5-447a-972f-35b095dadbe9&quot;,&quot;type&quot;:&quot;属于&quot;},&quot;9821eadf-650d-4aa0-a59f-644b9cd84437&quot;:{&quot;to&quot;:&quot;7c3ae376-85d6-472f-86bd-0876c50b57da&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;dc855669-0fa3-430a-ad8d-4483832b8732&quot;:{&quot;to&quot;:&quot;741e09b7-96d2-4cdf-8e88-503c6f24d59d&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;1e380cd1-179f-43e1-a97f-a45c97208de0&quot;:{&quot;to&quot;:&quot;ffc6fe06-4cfe-443e-a1ea-a511452e8324&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;361fa244-349c-4418-bfe6-83c500a465d6&quot;:{&quot;to&quot;:&quot;a26e4ec6-ef75-4f6d-9702-889e6cbcae6c&quot;,&quot;type&quot;:&quot;包括&quot;}}" tmap.id="9a08b113-ea30-4b49-ace3-20754236d358">
 <pre></pre>
@@ -11260,29 +11437,65 @@ Vivisimo是一个搜索引擎，由Carnegie Mellon大学计算机科学系的科
 <div created="20191125140123233" modified="20191125140123233" title="织金发粑" tmap.id="7c3ae376-85d6-472f-86bd-0876c50b57da">
 <pre></pre>
 </div>
-<div created="20191125140240856" modified="20191125140414642" title="织金宫保鸡丁" tmap.id="a26e4ec6-ef75-4f6d-9702-889e6cbcae6c">
-<pre></pre>
+<div created="20191125140240856" modified="20191211090238180" tags="家乡小吃 作业" title="织金宫保鸡丁" tmap.id="a26e4ec6-ef75-4f6d-9702-889e6cbcae6c">
+<pre>[img[http://www.people.com.cn/mediafile/pic/20140822/89/18228657827212726053.jpg]]
+
+织金宫保鸡丁色泽赤红诱人，酸辣口，鸡肉滑嫩，花生米爽脆，大葱也好吃。是一道超级下饭菜。</pre>
 </div>
 <div created="20191125140201151" modified="20191125140201151" title="织金荞凉粉" tmap.id="741e09b7-96d2-4cdf-8e88-503c6f24d59d">
 <pre></pre>
 </div>
-<div created="20191125133815945" modified="20191125133815945" title="草海细鱼" tmap.id="ec6b1e07-d648-4b67-a2a0-09576804b229">
-<pre></pre>
+<div created="20191125133815945" modified="20191211094037015" tags="家乡小吃 作业" title="草海细鱼" tmap.id="ec6b1e07-d648-4b67-a2a0-09576804b229">
+<pre>       威宁草海细鱼又称“虾子鱼”、“黄辣丁”、“小黄鱼”，长约寸许，不会长大，肉厚味佳，久已闻名于省内外，系将草海鲜鱼捕起后经风干或微火烘焙而成。草海细鱼兼有虾味，原来条条鱼肚内或口内都有完整的红虾。这是因为草海的细鱼很贪吃，往往肚子里虾子还未消化，嘴上又含上另一只，故任何时候捕的鱼，不是肚里有虾就是嘴里有虾，草海细鱼便有了此特色。草海细鱼年产量达10—15万公斤，又便于贮藏、携带，故成为待客和馈赠亲友的佳品。</pre>
 </div>
-<div created="20191125140217857" modified="20191125140217857" title="血豆腐" tmap.id="ffc6fe06-4cfe-443e-a1ea-a511452e8324">
-<pre></pre>
+<div created="20191125140217857" modified="20191211093942807" tags="知识图谱 家乡小吃 作业" title="血豆腐" tmap.id="ffc6fe06-4cfe-443e-a1ea-a511452e8324">
+<pre>[img[http://h2.bytravel.cn/shop/head/10532.gif]]
+
+       贵州织金的特产-血豆腐等系列腊味食品系清代兵部尚书总督太子少保丁宝桢家乡对皇宫的贡品。每年腊月间，将山区农家的肥猪屠宰、切块成片加以秘方香料腌制而成，将猪血与酸汤豆腐揉捏成丸； 然后皆以独特的方法熏制，食之肥瘦相宜不腻，味美异香爽口，是享誉全国的地方特产之一。
+
+　　贵州织金风味特产土制烟熏血豆腐忠于传统，用料考究，加工精细，质量上乘。是山外赤子倍加珍视的家乡美味，亲友之间馈赠表意的上佳礼品。备受前来国家级风景名胜区一一织金洞旅游观光的中外来客普遍赞赏。</pre>
 </div>
-<div created="20191125135709247" modified="20191125135709247" title="豆豉粑" tmap.id="a6d1f7f9-f603-4bb4-9758-5f48078af46a">
-<pre></pre>
+<div created="20191211084810406" modified="20191211100100861" tags="分类 书店 作业" title="西西弗书店分类" tmap.id="4c12c5bd-0537-4c90-8912-f1296fee9ca4">
+<pre>        每年中国有二三十万种书上市，西西弗通常只选其中10%，书籍一经入库就以数据形态，处于西西弗三大流控体系（采控、流控、调控）模型中。哪些书可以进入嘉里中心店？应该陈列在哪个位置？书籍与城市、商圈、陈列位数据相匹配。这些都是流控体系作用的结果，店长需要确认“货品是否被放在了正确的位置上”，这对于卖场“头部复合区域”为重要。当然，也有流控体系计算不到的地方。例如，西西弗展台是四面开放式的，店长可以做得更精细，将最热销的放在最接近消费者的一面。
+
+       西西弗是一种以书为介的复合型业态，图书区域面积占比保持在80%。西西弗卖场空间可以分为“头部复合区域”和“后场”两个区块。“头部复合区域”直接面向入口，且位于主动线通道上，与顾客产生链接的几率最高。
+
+       经营者经常会把“新书推荐”、“热销推荐”、“阅读主张”、“主题关注”、“畅销排行”、“不二生活”文创的展台放在“头部复合区域”，从商业的角度来讲，这些引导性的陈列更能促进“销售达成”。
+
+       西西弗卖场实行分区域管理，商品划分了15个类别，卖场以十大主题呈现，“多彩的童年”（少儿类别）-“财富与效率的世界”（经管类别）-“人类的思想与信仰”（社科哲学宗教），指引员工商品管理和顾客消费动线。
+
+        西西弗书籍众多，经营者设置地面导航、吊牌导航、书架导航三级导航，帮助顾客快速找到图书。地面导航显示书店整体区域分布，吊牌导航与书架导航显示图书所在区域。除此之外，通过卖场查询台，查找图书所在书架号，也可以找到图书。
+
+       在西西弗的全国战略版图中，门店就像是巨大网络中的神经末梢，需要店长这样的群体自上而下融会贯通。同时，由下及上，门店每天都处在地区“监管”之下，地区再由更高一级的总部“监管”。这是中国大部分连锁企业常用的“矩阵管理模式”。</pre>
+</div>
+<div created="20191125135709247" modified="20191211091816595" tags="知识图谱 家乡小吃 作业" title="豆豉" tmap.id="a6d1f7f9-f603-4bb4-9758-5f48078af46a">
+<pre>[img[http://h2.bytravel.cn/shop/head3/45795.gif]]
+
+大方豆豉是其豆制品系列产品中最独具特色的一种产品，具有“食一粒而知其味，尝一箪而恋其香”的传统风味。豆豉的制作也很有讲究，每年的农历腊月初八以后才开始做豆豉称腊八豆豉，正月后做的豆豉称桃花豆豉，夏秋两季也可制作，但质量都次于腊八豆豉。豆豉既可以制成蘸水，也可以用作火锅底料等多种食用方法，能增进食欲，有益健康。大方豆豉粑是用豆豉加工而成，在豆豉未干之前打成的，没逢做油辣椒的时候切上一块放入里面，可谓是飘香四溢！</pre>
 </div>
 <div created="20191125131945522" modified="20191125131945522" title="赫章县" tmap.edges="{&quot;a69c97e8-682d-4e8c-960d-5500064b89ce&quot;:{&quot;to&quot;:&quot;56271e2e-f0b5-447a-972f-35b095dadbe9&quot;,&quot;type&quot;:&quot;属于&quot;},&quot;a778269a-40d3-41c2-9abe-696d0de80bd1&quot;:{&quot;to&quot;:&quot;a8b13a8b-9347-4679-90e2-d02ea9c635ff&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;3457e524-f1cb-40cd-a608-8fa80669a1a8&quot;:{&quot;to&quot;:&quot;12359edd-2f25-4576-9b17-e8290f7d2020&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;95430220-ee3c-4f2e-9263-e96eebea7cf0&quot;:{&quot;to&quot;:&quot;ccec4894-c055-4d45-93c2-e8bf5bde224d&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;68ebd977-82a3-4065-8cc1-457de4ef25a3&quot;:{&quot;to&quot;:&quot;df4b6a59-1869-4f5d-b372-21c957e88d8b&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;4046133d-be82-4f04-ae23-6ba431f7a6ce&quot;:{&quot;to&quot;:&quot;c669e695-5a8c-46ee-ae5e-d4c1786bb656&quot;,&quot;type&quot;:&quot;包括&quot;}}" tmap.id="0c3c840b-ba20-4f31-98eb-8531b8be4b73">
 <pre></pre>
 </div>
-<div created="20191125135107265" modified="20191125135107265" title="赫章核桃" tmap.id="12359edd-2f25-4576-9b17-e8290f7d2020">
-<pre></pre>
+<div created="20191125135107265" modified="20191211093601624" tags="家乡小吃 作业" title="赫章核桃" tmap.id="12359edd-2f25-4576-9b17-e8290f7d2020">
+<pre>[img[http://h2.bytravel.cn/shop/head/17102.gif]]
+
+　赫章核桃个头不大，外表不美，它却具有壳薄、仁饱满、仁饱白、易取仁、味香纯等特点，是中国贵州省出口的农特产品之一。赫章核桃为地理标志保护产品。
+　　有这么一种核桃，个头不大，外表不美，但平均售价达到22元一斤，这就是赫章核桃。赫章核桃因产自贵州省赫章县而得名，只所以用地名来命名，是因为赫章县海拔高，光照长，温差大。最高海拔2900.6米（为贵州最高点），独特的小气候特别适宜核桃生长，所以，尽管赫章核桃个头不大，但其貌不扬的它却具有壳薄、仁饱满、仁饱白、易取仁、味香纯等特点，是出口的农特产品之一。2007年在1推荐果品综合评选中成功入选。现在在赫章，核桃种植遍布全县27个乡镇，总面积达16万亩。2006年获评为“全国核桃林业标准化建设示范区”，并在此基础上又开发出核桃糖、核桃露、核桃菜肴等，提升了核桃的附加值。为当地种植户带来了丰厚的效益。
+
+　　赫章核桃栽培历史悠久，是我国南方铁核桃的分布中心。其境内分布着许多原生核桃种质资源，经过多年的筛选和培育，形成了富有野生特色的山野珍品。目前，该县有优质核桃种植面积14万亩，核桃乳、核桃糖等加工产品产量达1000吨，核桃产业年产值超亿元，核桃已成为赫章农村农民致富的一个新兴支柱产业。
+
+　　2006年，赫章县被国家林业局选定为“全国核桃林业标准化建设示范区”，示范区内生产的无公害、绿色核桃坚果，其不饱和脂肪酸含量、氨基酸含量均超过一般核桃含量。2007年，赫章县林业局选送的核桃被中国果品流通协会等8家单位评选为“奥运推荐果品”，今年，赫章县被中国果品流通协会等单位评定为“中国核桃之乡”。</pre>
 </div>
-<div created="20191125135135464" modified="20191125135135464" title="赫章殷桃" tmap.id="c669e695-5a8c-46ee-ae5e-d4c1786bb656">
-<pre></pre>
+<div created="20191125135135464" modified="20191211092545962" tags="家乡小吃 作业" title="赫章殷桃" tmap.id="c669e695-5a8c-46ee-ae5e-d4c1786bb656">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33094.gif]]
+
+       赫章樱桃是贵州省毕节市赫章县的特产。赫章樱桃酸甜可口、果大色鲜、潜在可开发附加值高。赫章县被中国果品协会、中国果品之乡暨果品产业先进典型评选组委会评定为“中国樱桃之乡”。
+
+　　赫章县适宜种植樱桃的退耕地及荒地面积约有10万亩，地理气候条件非常适宜发展樱桃产业。此外，原生态无污染的水源，以及性状偏碱的土壤等独特的自然条件，造就了赫章樱桃皮薄肉厚、汁多核小、色泽鲜艳如珠、味道甘美似蜜的优良品质，赫章樱桃素有“春果第一枝”之称，备受广大消费者青睐，成熟之际总是远销贵阳、昆明、成都等地，赫章已成为名副其实的“中国樱桃之乡”。
+
+　　目前，赫章共有樱桃种植面积3.36万亩。其中，幼龄果园2万亩，年产量2.5万吨，年产值达5亿元以上，真正实现了“小樱桃”成就了大产业。
+
+</pre>
 </div>
 <div created="20191125135254911" modified="20191125135254911" title="赫章红花山茶油" tmap.id="a8b13a8b-9347-4679-90e2-d02ea9c635ff">
 <pre></pre>
@@ -11309,11 +11522,39 @@ Vivisimo是一个搜索引擎，由Carnegie Mellon大学计算机科学系的科
 <div created="20191125131556652" modified="20191125131556652" title="金沙县" tmap.edges="{&quot;6e27dd1c-ec8d-488e-8c81-24dc1fa51413&quot;:{&quot;to&quot;:&quot;56271e2e-f0b5-447a-972f-35b095dadbe9&quot;,&quot;type&quot;:&quot;属于&quot;},&quot;a6b54bb3-a7b2-43ac-a7ab-5a59f280890c&quot;:{&quot;to&quot;:&quot;8c56b186-2d2e-41d5-acc7-449ee02205ed&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;8b8725fb-5042-48a5-8be7-f9c9b5315478&quot;:{&quot;to&quot;:&quot;c87d6590-2076-4489-843e-4aa3f8bdbe1e&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;259e9a1f-3363-41a7-8963-5201950c5383&quot;:{&quot;to&quot;:&quot;ac5193eb-167a-4a9a-8ebe-0691c887318b&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;5af19e50-3cf7-4044-8326-3527f1427222&quot;:{&quot;to&quot;:&quot;348260b0-015c-44bb-bf5d-8f644115786e&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;9b7c4d74-c2d8-43b2-af29-1b9b7ff452d4&quot;:{&quot;to&quot;:&quot;9ddf6ae8-506f-4a96-8915-28b850b9a199&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;008a57d6-ae44-4c03-ae09-595845f3f6cb&quot;:{&quot;to&quot;:&quot;4ea3312d-f7ec-4892-bc3e-c8bfa4233688&quot;,&quot;type&quot;:&quot;包括&quot;}}" tmap.id="603e677d-7c4d-4f79-be24-d3682c72d375">
 <pre></pre>
 </div>
-<div created="20191125134015643" modified="20191125134015643" title="金沙回沙酒" tmap.id="c87d6590-2076-4489-843e-4aa3f8bdbe1e">
-<pre></pre>
+<div created="20191125134015643" modified="20191211091509331" tags="思维导图 家乡小吃 作业" title="金沙回沙酒" tmap.id="c87d6590-2076-4489-843e-4aa3f8bdbe1e">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33099.gif]]
+
+金沙回沙酒具有酱香突出、优雅细腻、味醇丰满、酒体醇厚、回味悠长、空杯留香的独特风味。
+金沙回沙酒是贵州老牌名酒，以优质高粱为原料，小麦制曲，采用两次投料、八次发酵、七次蒸馏取酒的茅台酒生产工艺酿造，是贵州除茅台酒外的第一个大曲酱香型白酒，具有酱香突出、优雅细腻、味醇丰满、酒体醇厚、回味悠长、空杯留香的独特风味。“金沙回沙酒”秉承传统的茅台酒酿造工艺，具有悠久的历史，并以其独特“香醇味浓、馥郁堪夸”的特点而享誉省内外。早在60年代就被誉为贵州“二茅台”，曾荣获首届中国食品博览会金奖、酒文化节金奖、历届贵州省名牌产品及贵州群众最喜爱的产品杜鹃杯等奖。
+
+　　多年来，公司生产的系列产品，经省、地、县质检总部抽检，市场合格率年年都达100%，多次被省、地、县工商部门授予“消费者信得过产品”称号。2010年10月8日，公司注册商标“金沙”及图形商标被国家工商总局认定为“中国驰名商标”。实现了贵州省毕节地区中国驰名商标“零”的突破！
+
+　　作为区域性强势品牌的“金沙回沙酒”，在原有毕节核心市场的基础上，已经形成了以毕节、贵阳、遵义、水城、安顺为核心市场，黔南、黔东南、黔西南、铜仁为成长市场的省内市场布局，同时开始着手布局湖北、广西、云南、广东、江苏、河南等省外市场。</pre>
 </div>
-<div created="20191125134031947" modified="20191125134031947" title="金沙贡茶" tmap.id="ac5193eb-167a-4a9a-8ebe-0691c887318b">
-<pre></pre>
+<div created="20191125134031947" modified="20191211091347019" tags="知识图谱 家乡小吃 作业" title="金沙贡茶" tmap.id="ac5193eb-167a-4a9a-8ebe-0691c887318b">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33091.gif]]
+
+
+金沙贡茶是贵州省毕节市金沙县的特产。金沙县荣获中国茶叶流通协会授予的“中国贡茶之乡”称号。
+
+　　金沙贡茶历史悠久，据史书记载，公元前135年汉武帝传旨作为贡茶，清朝时期畅销各地，至今已有两千多年的历史。经省内专家考证，金沙应是西部乃至中国贡茶文化的发源地，至今，金沙还保存40余株有上千年历史人工栽培的古茶树群，为全国罕见。
+
+　　金沙茶产业的发展势头，不断受到外界的关注和认可。贵州省金沙县茶叶专业合作社“清池毛尖”获金奖、“清池绿茶”获银奖，贵州天灵茶叶有限公司“天灵翠片”、“天灵御平”、“天灵毛尖”和“天灵女儿红”四个品牌摘取三金一银大满冠。好消息接踵而至，金沙县荣获中国茶叶流通协会授予的“中国贡茶之乡”称号，这是该县首次获得的冠以“中国”名称的殊荣，对金沙进一步打造全省茶产业重点县必将产生强有力的推动作用。金沙清池贡茶正参加贵州十大名茶评比。金沙县力争3年发展茶园18万亩，2020年茶园面积发展到25万亩，茶业产值突破15亿元。
+
+　　所在地域: 贵州
+
+　　申请人： 金沙县农业技术推广站
+
+　　所在地域: 2014年
+
+　　地域范围
+
+　　金沙贡茶地域保护范围为：城关镇、沙土镇、安底镇、禹谟镇、岩孔镇、清池镇、岚头镇、源村乡、官田乡、后山乡、长坝乡、木孔乡、茶园乡、化觉乡、高坪乡、平坝乡、西洛乡、龙坝乡、桂花乡、石场苗族彝族乡、太平彝族苗族乡、箐门苗族彝族仡佬族乡、马路彝族苗族乡、安洛苗族彝族满族乡、新化苗族彝族满族乡、大田彝族苗族布依族乡等26个乡镇。地理坐标为：东经105°47′-106°44′，北纬27°07′-27°46′，区域生长面积1250平方公里。金沙贡茶种植面积15万亩，年产量达100多万公斤。
+
+　　产品品质特性特征
+
+　　外在感观特征：形似鱼钩，绿润、披毫；栗香浓；汤色黄绿明亮；滋味醇厚、回味甘甜；叶底嫩绿匀整。 内在品质指标：根据贵州省农产品质量安全检测中心分析，金沙贡茶营养丰富，其中茶多酚14-15%，咖啡碱2.7-3.0%，茶氨酸3.4-3.8(g/100g)，谷氨酸0.2-0.3(g/100g)，酪氨酸0.2-0.3(g/100g)，精氨酸0.1-0.2(g/100g)等。 金沙贡茶生产严格按照贵州省茶叶标准技术规程的规定进行生产。</pre>
 </div>
 <div created="20191125134107290" modified="20191125134107290" title="雄泰大头菜" tmap.id="348260b0-015c-44bb-bf5d-8f644115786e">
 <pre></pre>
@@ -11327,11 +11568,19 @@ Vivisimo是一个搜索引擎，由Carnegie Mellon大学计算机科学系的科
 <div created="20191125131841339" modified="20191125131841339" title="黔西县" tmap.edges="{&quot;43933d04-46ff-4cc5-b4b0-7f1ab7173ece&quot;:{&quot;to&quot;:&quot;56271e2e-f0b5-447a-972f-35b095dadbe9&quot;,&quot;type&quot;:&quot;属于&quot;},&quot;d179c559-4bc3-479e-b1c8-1533dba6c060&quot;:{&quot;to&quot;:&quot;441d5371-8066-4245-a9fd-c07f81df751d&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;1e50a013-4eff-4634-9aa5-19fa7231e86f&quot;:{&quot;to&quot;:&quot;d69a227f-fa18-4f3e-84d4-35be5ec8f781&quot;,&quot;type&quot;:&quot;包括&quot;},&quot;cae071a0-566e-4276-a62b-6e31a54dcabf&quot;:{&quot;to&quot;:&quot;8e2b3e4b-db00-4a3d-8af1-42bbf3e9b636&quot;,&quot;type&quot;:&quot;包括&quot;}}" tmap.id="39d3245f-43a2-4543-98b2-ad1cd4e84d55">
 <pre></pre>
 </div>
-<div created="20191125135458424" modified="20191125135458424" title="黔西素辣椒" tmap.id="8e2b3e4b-db00-4a3d-8af1-42bbf3e9b636">
-<pre></pre>
+<div created="20191125135458424" modified="20191211092310073" tags="家乡小吃 作业" title="黔西素辣椒" tmap.id="8e2b3e4b-db00-4a3d-8af1-42bbf3e9b636">
+<pre>[img[http://h2.bytravel.cn/shop/head2/33098.gif]]
+
+        素辣椒，是黔西特有，用豆豉粑，糊辣椒面、盐等精制而成，口味独特，深受广大朋友们的喜爱。黔西素辣椒品牌：徐顺昌素辣椒、田园素辣椒。</pre>
 </div>
-<div created="20191125135601000" modified="20191125135601000" title="龙华脆皮豆腐" tmap.id="441d5371-8066-4245-a9fd-c07f81df751d">
-<pre></pre>
+<div created="20191125135601000" modified="20191211092946865" tags="家乡小吃 作业" title="龙华脆皮豆腐" tmap.id="441d5371-8066-4245-a9fd-c07f81df751d">
+<pre>[img[http://h2.bytravel.cn/shop/head1/28221.gif]]
+
+       “龙华脆皮豆腐”系在传统小葱拌豆腐的基础上进行改进，使用当地的野生弹子葱，结合厨师自制的香辣味酱，使其豆腐外酥内嫩。葱味浓郁，色泽金黄，香辣爽口，充分体现了黔菜的风味。
+
+　　配方：主料—内脂豆腐1盒。辅料—黔西地方野生弹子葱（野葱或叫苦蒜）30克，熟火腿粒25克。调料—特制辣椒酱25克，脆炸糊30克，精盐15克，味精5克，花椒粉5克，胡椒粉5克，香油5克，姜粒5克，干芡粉20克，色拉油1500克（实耗150克）。
+
+　　制作工艺：将内脂豆腐修边切成长5厘米、宽3厘米、厚1厘米的块，放入沸水锅中加盐10克汆透，捞出放入凉开水中冲凉滤干。将熟火腿粒和部分野葱粒镶入豆腐内，拍上干粉，挂上脆炸糊，下入五成熟的油锅中炸至色泽金黄，外酥内嫩时捞出滤干油，摆放盘中；用特制辣椒酱和其他调料加入剩余葱粒调制成野葱味浓的香辣碟，与豆腐一同上桌。</pre>
 </div>
 
 </div>
